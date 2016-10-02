@@ -28,4 +28,9 @@ class Welcome extends CI_Controller
     {
         $this->load->view('indexForDevelopStep1');
     }
+	
+	public function indexForDevelopStep2()
+    {
+        $this->load->view('indexForDevelopStep2');
+    }
 }
